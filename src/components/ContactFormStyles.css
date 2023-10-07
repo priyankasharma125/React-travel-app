@@ -40,3 +40,16 @@
         
     }
 }
+@media screen and (max-width:400px){
+    .form-container{
+        margin-top: 22px;
+        width: 70%;
+        /* padding: 0px; */
+    }
+    .form-container input{
+        width: 100%;
+    }
+    .form-container textarea {
+        width: 100%;
+    }
+}

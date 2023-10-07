@@ -87,4 +87,16 @@ transition: all 0.2s ease-in;
         width: 70%;
         height: 65%;
     }
+    
+}
+@media screen and (max-width:400px){
+    .detail input{
+width: 100%;
+    }
+    .avatar{
+        display: none;
+    }
+    .detail label{
+        left: -22px;
+    }
 }
