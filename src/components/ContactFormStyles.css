@@ -40,16 +40,41 @@
         
     }
 }
-@media screen and (max-width:400px){
+/* @media screen and (max-width:400px){
     .form-container{
         margin-top: 22px;
         width: 70%;
-        /* padding: 0px; */
+    
     }
+} */
+@media  screen and (min-width:200px) and (max-width:400px) {
     .form-container input{
         width: 100%;
     }
     .form-container textarea {
         width: 100%;
     }
+   .form-container{
+    
+    width: 80%;
+    margin: 270px 0 20px 50px;
+   } 
 }
+@media  screen and (min-width:400px) {
+    .form-container input{
+        width: 100%;
+    }
+    .form-container textarea {
+        width: 100%;
+    }
+    .form-container{
+     
+     
+     margin: 60px 25px 20px 25px;
+    } 
+ }
+ @media screen and (max-width:300px){
+    .form-container{
+        margin: 400px 10px 10px 25px;
+    }
+ }

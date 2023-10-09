@@ -16,7 +16,7 @@
 .cards {
     margin-top: 4rem;
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     align-items: center;
     gap: 40px;
     justify-content: space-between;
@@ -96,8 +96,21 @@
         
     }
 }
-@media screen and (max-width:400px){
+@media screen and (min-width:200px) and (max-width:400px){
     .trip{
+        margin: 0;
         margin-top:200px;
+    }
+}
+@media screen and (min-width:800px){
+    .card-row{
+        
+        width: 100%;
+        height: auto;
+    }
+}
+@media screen and (max-width:300px){
+    .trip{
+        margin-top: 400px;
     }
 }

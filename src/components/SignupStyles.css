@@ -86,17 +86,40 @@ transition: all 0.2s ease-in;
     .form-con{
         width: 70%;
         height: 65%;
+        
     }
-    
+    .avatar{
+        display: none;
+    }
 }
-@media screen and (max-width:400px){
+
+@media screen and (min-width:200px) and (max-width:400px){
+    
     .detail input{
-width: 100%;
+    width: 100%;
     }
     .avatar{
         display: none;
     }
     .detail label{
         left: -22px;
+    }
+    .form-con{
+        height: 70%;
+        width: 90%;
+    }
+.detail input::placeholder{
+    font-size: 15px;
+    
+}
+}
+@media  screen and (min-width:400px){
+    .form-con{
+        width: 95%;
+    }
+}
+@media screen and (max-width:300px){
+    .form-con{
+        height: 77%;
     }
 }
