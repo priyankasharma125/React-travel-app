@@ -114,3 +114,8 @@
         margin-top: 400px;
     }
 }
+@media screen and (max-width:200px){
+    .trip{
+margin-top: 500px;
+    }
+}
